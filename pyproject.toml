@@ -1,0 +1,11 @@
+[project]
+name = "mdmm-jax"
+version = "0.1.0"
+description = "Gradient-based constrained optimization for JAX (implementation by Katherine Crowson)."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jax>=0.9.1",
+    "optax>=0.2.7",
+    "tqdm>=4.67.3",
+]
